@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.main__header {
+  background-color: #edf2ec;
+  padding-top: 42px;
+  padding-bottom: 42px;
+  font-family: Inika;
+}
+.header {
+  width: 1120px;
+  height: 50px;
+  padding: 42px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+}
+.nav__pages {
+  display: flex;
+  gap: 46px;
+}
+
+.nav__pages li a:hover {
+  color: #e06733;
+}
