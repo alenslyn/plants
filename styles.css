@@ -98,13 +98,12 @@ li {
   justify-content: space-between;
   gap: 153px;
   max-width: 1222px;
-
 }
 .about__desc {
   padding-top: 161px;
   padding-bottom: 155px;
 }
-.desc__title {§
+.desc__title {
   font-family: Inika;
   font-style: regular;
   font-size: 40px;
@@ -113,6 +112,7 @@ li {
   width: 463px;
   letter-spacing: 1px;
 }
+
 .title__colortext {
   color: rgba(224, 103, 51, 1);
 }
@@ -128,5 +128,17 @@ li {
 }
 .houseplant_img {
   height: 650px;
+}
+.main__services {
+  background-color: rgba(237, 242, 236, 1);
+  padding-top: 40px;
+  padding-bottom: 121px;
+}
+.services__content {
+  width: 1007px;
+  height: 94px;
 
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
